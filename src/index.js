@@ -15,7 +15,6 @@ app.use(v1Routes);
 
 // Catch 404 and forward to error handler
 app.use((req, res, next) => {
-  console.log(req.originalUrl);
   const err = new Error("Not Found");
   err.status = 404;
   next(err);
