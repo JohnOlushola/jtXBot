@@ -1,5 +1,5 @@
 import { Router } from "express";
-import Bot from "../controllers/Bot";
+import Bot from "../../controllers/Bot";
 
 const router = Router();
 
